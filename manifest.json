@@ -1,0 +1,7 @@
+{
+  "name": "React Figma Plugin Starter",
+  "id": "961624958788888216",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}
