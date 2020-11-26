@@ -1,7 +1,7 @@
-import { WINDOW_WIDTH, WINDOW_HEIGHT } from './constants/constants';
+// Show the plugin
+figma.showUI(__html__);
 
-figma.showUI(__html__, { width: WINDOW_WIDTH, height: WINDOW_HEIGHT });
-
+// Capture messages from App.tsx
 figma.ui.onmessage = ({ type }) => {
   switch (type) {
     case 'onMount':
@@ -13,9 +13,9 @@ figma.ui.onmessage = ({ type }) => {
   }
 };
 
+// When the selection changes, post a message to be captured in App.tsx
 figma.on('selectionchange', () => {
   const { length } = figma.currentPage.selection;
-
   figma.ui.postMessage({
     message: 'setSelectedLayerCount',
     value: length,

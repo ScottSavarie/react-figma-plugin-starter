@@ -4,13 +4,16 @@ import ReactDOM from 'react-dom';
 import './defaults.css';
 
 const App = () => {
+  // Set up state to store values sent from the plugin
   const [mountMessage, setMountMessage] = useState('');
   const [selectedLayerCount, setSelectedLayerCount] = useState(0);
 
+  // On the first render, post message to tell the plugin (code.ts) that the App is mounted
   useEffect(() => {
     parent.postMessage({ pluginMessage: { type: 'onMount' } }, '*');
   }, []);
 
+  // When the plugin code posts messages, capture them here and set state
   onmessage = (event) => {
     const { message, value } = event.data.pluginMessage;
 
