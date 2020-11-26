@@ -1,4 +1,4 @@
-# react-figma-plugin-starter
+# React Figma Plugin Starter
 
 Boilerplate setup for developing React based Figma plugins. Comes with a basic example of publishing / subscribing to messages between App.tsx and code.ts.
 
@@ -20,7 +20,7 @@ Boilerplate setup for developing React based Figma plugins. Comes with a basic e
 
 ### Related
 
-[Figma Docs](https://www.figma.com/plugin-docs).
+[Figma Docs](https://www.figma.com/plugin-docs)
 
 ### Credit
 
