@@ -2,7 +2,7 @@
 
 # React Figma Plugin Starter
 
-Boilerplate setup for developing React based Figma plugins. Comes with a basic example of publishing / subscribing to messages between App.tsx and code.ts.
+Boilerplate setup for developing React based Figma plugins. Demonstrates a basic example of publishing / subscribing to messages between `App.tsx` and `code.ts`. Additionally has some webpack loaders for CSS Modules and SVGs
 
 ## Requirements
 
