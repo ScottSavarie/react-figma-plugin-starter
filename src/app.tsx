@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './defaults.css';
 
-const UI = () => {
+const App = () => {
   const [mountMessage, setMountMessage] = useState('');
   const [selectedLayerCount, setSelectedLayerCount] = useState(0);
 
@@ -33,4 +33,4 @@ const UI = () => {
   );
 };
 
-ReactDOM.render(<UI />, document.getElementById('react-page'));
+ReactDOM.render(<App />, document.getElementById('react-page'));
