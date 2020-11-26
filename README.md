@@ -1,3 +1,5 @@
+![Screenshot of App](https://github.com/ScottSavarie/react-figma-plugin-starter/blob/main/src/assets/youShouldDeleteThis.jpg?raw=true)
+
 # React Figma Plugin Starter
 
 Boilerplate setup for developing React based Figma plugins. Comes with a basic example of publishing / subscribing to messages between App.tsx and code.ts.
