@@ -6,6 +6,11 @@ Boilerplate setup for developing React based Figma plugins. Comes with a basic e
 
 - Node 14+
 
+## Reference the Plugin in Figma
+
+1. From the menu go to: Plugins / Development / New Plugin...
+1. Select the manifest.json
+
 ## Building the Plugin:
 
 ```
